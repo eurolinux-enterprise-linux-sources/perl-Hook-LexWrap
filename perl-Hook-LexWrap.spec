@@ -1,6 +1,6 @@
 Name:           perl-Hook-LexWrap
 Version:        0.24
-Release:        2%{?dist}
+Release:        1%{?dist}
 Summary:        Lexically scoped subroutine wrappers
 Group:          Development/Libraries
 License:        GPL+ or Artistic
@@ -49,9 +49,6 @@ rm -rf %{buildroot}
 %{_mandir}/man3/Hook::LexWrap.3pm*
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.24-2
-- Mass rebuild 2013-12-27
-
 * Tue Jul 24 2012 Paul Howarth <paul@city-fan.org> - 0.24-1
 - Update to 0.24
   - Add Build.PL
